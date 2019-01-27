@@ -1,0 +1,189 @@
+body {
+  background: #fff;
+}
+
+header {
+  background: url(/homework/img/header_background_v1.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header .top-wrapper .logo {
+  display: inline-block;
+}
+header .top-wrapper .logo img {
+  width: 50%;
+}
+header .top-wrapper nav {
+  float: right;
+  display: flex;
+  width: 50%;
+}
+header .top-wrapper nav a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-left: 1.5px solid grey;
+  width: 33%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .top-wrapper nav a:first-of-type {
+  border-left: none;
+}
+header .top-wrapper nav a:hover {
+  background: rgba(192, 192, 192, 0.3);
+}
+header section {
+  text-align: center;
+  color: red;
+  position: relative;
+  top: 20%;
+}
+header section h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header section a {
+  padding: 1% 4%;
+  text-decoration: none;
+  background: #1d9199;
+  color: #fff;
+  text-transform: uppercase;
+}
+header section a:hover {
+  background: #15686e;
+}
+
+main {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+main section h1 {
+  text-align: right;
+  text-transform: uppercase;
+  margin: 0;
+}
+main .toolbar {
+  width: 100%;
+  display: inline-block;
+  margin: 2% 0;
+}
+main .toolbar input {
+  float: right;
+  padding: 1%;
+  display: block;
+}
+main .post-list article {
+  background: #e7e7e7;
+  padding: 1%;
+  margin-bottom: 2%;
+  display: flex;
+}
+main .post-list article .post .post-description {
+  color: red;
+  padding: 1%;
+}
+main .post-list article .post h3 {
+  color: #1d9199;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 1%;
+  padding-top: 1%;
+  border-top: 1px solid #000;
+}
+main .post-list article .post p {
+  margin: 0;
+  padding: 0 0 2% 1%;
+  color: black;
+}
+main .post-list article .btn {
+  float: right;
+  padding: 1% 10%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #1d9199;
+  border: none;
+}
+main .post-list article .btn:hover {
+  background: #15686e;
+  cursor: pointer;
+}
+main .about {
+  margin-top: 5%;
+}
+main .about h1 {
+  margin-bottom: 0;
+  color: black;
+}
+main .about p {
+  color: black;
+}
+main .about p:first-of-type {
+  margin-top: 0;
+}
+main .about div img {
+  width: 100%;
+}
+main .contact-form {
+  margin-top: 5%;
+}
+main .contact-form h1 {
+  margin-bottom: 0;
+  color: black;
+}
+main .contact-form .input_field {
+  width: 49%;
+  display: inline-block;
+}
+main .contact-form h4 {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: right;
+  margin: 0;
+  color: black;
+}
+main .contact-form p {
+  text-align: right;
+  margin: 0;
+  color: #1d9199;
+}
+main .contact-form p:last-of-type {
+  margin-top: 3%;
+}
+main .contact-form p::after {
+  content: " *";
+}
+main .contact-form #contact_name, main .contact-form #contact_email {
+  width: 100%;
+  padding: 2%;
+}
+main #contact_message {
+  width: 100%;
+  height: 200px;
+}
+main .btn {
+  float: right;
+  padding: 1% 8%;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #1d9199;
+  border: none;
+  margin-top: 2%;
+}
+main .btn:hover {
+  background: #15686e;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 5%;
+}
+
+/*# sourceMappingURL=style1.css.map */
