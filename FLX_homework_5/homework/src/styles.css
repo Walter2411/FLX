@@ -219,7 +219,13 @@ body {
 .post{
   flex-direction: column;
   height: 100%;
+  width: 100%;
 
+}
+.news_blocks{
+  display: inline-block;
+  width: 50%;
+  
 }
 .post .post_description{
   height: 100%;
@@ -232,8 +238,13 @@ body {
   width: 100%;
 }
 
-
-
+.post .post_description .date{
+  width: 100%;
+  float: center;
+  font-weight: lighter;
+  
+   
+}
 
 
 
