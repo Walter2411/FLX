@@ -1,4 +1,3 @@
-
 body {
   font-family: roboto;
   background: #0b192f;
@@ -202,53 +201,17 @@ body {
 
 @media only screen and (max-width:768px){
 
-.page_header{
-  width: 100%;
-}
-
-.content{
-  width: 100%
-}
-.navigation{
-  display: none;
-}
-.logo{
-  margin: 0 auto;
-}
-
-.post{
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-
-}
-.news_blocks{
-  display: inline-block;
-  width: 50%;
-  
-}
-.post .post_description{
-  height: 100%;
-}
-.post:nth-child(even){
-  flex-direction: column;
-}
-
-.footer{
-  width: 100%;
-}
-
-.post .post_description .date{
-  width: 100%;
-  float: center;
-  font-weight: lighter;
-  
-   
-}
-
-
-
-
+  .content_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .post{
+    flex-direction: column;
+  }
+  .main_content{
+    display:block;
+    width: 60%;
+  }
 
 }
 
