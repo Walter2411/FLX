@@ -1,5 +1,148 @@
+<<<<<<< HEAD
 /* 
 
 write your code here
 
 */
+=======
+@media print {
+    .tm-banner {
+      width: 500px;
+      height: 200px;
+      margin: 0 auto;
+      padding: 0;
+    }
+    h2.tm-section-title {
+        color: rgb(9, 9, 232);
+    }
+
+    .tm-content-box {
+      margin-bottom: 1px;
+      display: flex;
+      justify-content: center;
+    }
+    .tm-team-description-container {
+      width: 350px;
+      margin-left: 70px;
+    }
+    div>.tm-section-description:first-of-type{
+        font-style: italic;
+    }
+    div>p{
+        text-indent: 1.5em;
+    }
+    div>p::first-letter{
+        color: aquamarine;
+        font-size: 2em;
+        
+    }
+    img[alt="epam-mexico"] {
+      width: 200px;
+      padding-top: 80px;
+    }
+    .tm-main-nav,
+    #about,
+    .blocks,
+    #ideas,
+    #contact,
+    .img-contact-us,
+    .heading,
+    section::before {
+      display: none;
+    }
+    .tm-footer>p::first-letter{
+        color: aquamarine;
+        font-size: 2em;    
+    }
+  }
+@media screen{
+    li.box.box-bg:hover{
+        background: #87CEFA;
+        color: #fff;
+    }
+    li.box.box-bg>h2:hover{
+        color: #fff;
+        font-weight: bold;
+    }
+    p::first-letter{
+        color: #87CEFA;
+        font-size: 2em
+    }
+    .tm-sidebar,.tm-content-box{
+        box-shadow: 0 0 20px rgba(0, 0, 0, .7);
+    }
+    section::before {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 25px 200px 0 0;
+        border-color: #87CEFA transparent;
+      }
+    .carousel-content .flex-item .tm-section-title{
+        color: gainsboro;
+        letter-spacing: 5px;
+    }
+    h2+p{
+        font-style: italic;
+    }
+    section p{
+        text-indent: 1.5em;
+        line-height: 2em;
+    }
+    a{
+        color: grey;
+    }
+    a:visited{
+        text-decoration-line: underline;
+    }
+    a:hover{
+        text-decoration-style: double;
+        color: #87CEFA;
+    }
+    a[class="text"]::after{
+        content:'New';
+        color: red;
+        font-size: 10px;
+        vertical-align: super;
+        display: inline-block;
+    }
+    .blocks .box:nth-child(even){
+        background: rgb(218, 216, 216);
+    }
+    .box p::first-letter{
+        color: black;
+
+    }
+    .box-work{
+        padding: 10px;
+    }
+    .box-work p {
+        text-indent: 0;
+    }
+    .box-work p::first-letter{
+        color: #000;
+        font-size: 1.5em;
+    }
+    .mandatory-field::after {
+        content: "*";
+        color: red;
+    }
+    .submit-btn{
+        float: right;
+        background-color: #fff;
+        color: #87CEFA;
+        border-color: #87CEFA;
+        border-radius: 0;
+    }
+    .submit-btn:hover{
+        background-color: #87CEFA;
+        color: #fff;
+        border-color: #87CEFA;
+    }
+    .tm-nav-item:hover{
+        background-color: lightgray;
+    }
+}
+>>>>>>> 353dd44bb7431c70d2e28227b22a32f12888d8ac
